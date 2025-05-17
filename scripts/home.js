@@ -43,3 +43,32 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const courseList = document.getElementById("courseList");
+  const allCourses = document.querySelectorAll(".optionscour li");
+
+  allCourses.forEach(item => {
+    item.addEventListener("click", (event) => {
+      event.preventDefault(); // Evita comportamiento por defecto de <a>
+      
+      const courseName = item.textContent.trim();
+
+      // Mostrar alerta
+      const confirmacion = confirm(`Will you take this course ${courseName}?`);
+
+      if (confirmacion) {
+        // Evitar agregar duplicados
+        const yaExiste = Array.from(courseList.children).some(li => li.textContent === courseName);
+
+        if (!yaExiste) {
+          const li = document.createElement("li");
+          li.textContent = courseName;
+          courseList.appendChild(li);
+        } else {
+          alert("You have in list this course.");
+        }
+      }
+    });
+  });
+});
