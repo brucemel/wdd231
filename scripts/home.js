@@ -23,16 +23,15 @@ document.addEventListener("DOMContentLoaded", () => {
     link.addEventListener("click", (event) => {
       event.preventDefault();
 
-      const category = link.textContent.trim(); // All, CSE, WDD
+      const category = link.textContent.trim();
 
       courseLinks.forEach(item => {
-        const courseCode = item.textContent.trim(); // Ej: CSE 110
-
-        // Mostrar todos
+		  const courseCode = item.textContent.trim(); 
+		  
         if (category === "All") {
           item.style.display = "list-item";
         } else {
-          // Mostrar solo los que comienzan con la categoría (ej: CSE)
+          
           if (courseCode.startsWith(category)) {
             item.style.display = "list-item";
           } else {
@@ -50,15 +49,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   allCourses.forEach(item => {
     item.addEventListener("click", (event) => {
-      event.preventDefault(); // Evita comportamiento por defecto de <a>
+      event.preventDefault(); 
       
       const courseName = item.textContent.trim();
 
-      // Mostrar alerta
       const confirmacion = confirm(`Will you take this course ${courseName}?`);
 
       if (confirmacion) {
-        // Evitar agregar duplicados
+    
         const yaExiste = Array.from(courseList.children).some(li => li.textContent === courseName);
 
         if (!yaExiste) {
