@@ -1,0 +1,12 @@
+*{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.profile{
+    display: flex;
+}
+
+.fontcham{
+    font-size: 15px;
+}

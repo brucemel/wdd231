@@ -1,38 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Chamber Directory Page">
-    <meta property="og:description" content="Help to the people find work.">
-    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/2/27/U.S._Chamber_of_Commerce_Building-4.jpg">
-    <meta property="og:url" content="https://brucemel.github.io/wdd231/chamber/directory.html">
-    <meta name="author" content="Bruce Melendez Lozano">
-    <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="styles/home.css">
-    <link rel="stylesheet" href="styles/mediaquery.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Chamber Directory Page">
+        <meta property="og:description" content="Help to the people find work.">
+        <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/2/27/U.S._Chamber_of_Commerce_Building-4.jpg">
+        <meta property="og:url" content="https://brucemel.github.io/wdd231/chamber/directory.html">
+        <meta name="author" content="Bruce Melendez Lozano">
+        <title>Chamber of Directory Page</title>
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="styles/directory.css">
+        <link rel="stylesheet" href="styles/mediaquery.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Prata&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <script src="scripts/home.js" defer></script>
-  </head>
-  <body>
-    <header>
-      <div class="profile">
-        <img class="yopic" src="images/yo.webp" alt="iambruce" width="60">
-        <h1 class="myname">Bruce J. Melendez</h1>
-      </div>
-      <button type="button" id="menu"></button>
-      <nav class="barraop">
-          <ul class="navigation">
-              <li><a href="https://brucemel.github.io/wdd231/" title="Home"> <span class="home1">Home</span></a></li>
-              <li><a href="#" title="Chamber" class="active">Chamber</a></li>
-              <li><a href="#" title="Final">Final</a></li>
-              <li><a href="https://github.com/brucemel" title="GitHub Profile">GitHub Profile</a></li>
-              <li><a href="https://www.linkedin.com/in/bruce-melendez-607756339/" title="LinkedIn">LinkedIn</a></li>
-          </ul>
-      </nav>
-    </header>
- </body>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Prata&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="scripts/home.js" defer></script>
+    </head>
+    <body>
+        <header  class="profile">
+                <img class="champic" src="images/U.S._Chamber_of_Commerce_Building-4.jpg" alt="imgofchamber" width="60">
+                <h1 class="titlecham">Trujillo <br><span class="fontcham">Chamber of commerce</span></h1>
+            <button type="button" id="menu"></button>
+            <nav class="barraop">
+                <ul class="navigation">
+                    <li><a href="directory.html" title="Home"> <span class="home1">Home</span></a></li>
+                    <li><a href="#" title="Discover" class="active">Discover</a></li>
+                    <li><a href="#" title="Directory">Directory</a></li>
+                    <li><a href="#" title="Join">Join</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <picture>
+                <img src="images/GettyImages_670914134.0.jpg" alt="Placeholder Kitten Image" loading="lazy">
+            </picture>
+            <h2>Home</h2>
+            <section>
+                <div>
+                    <h3>Events</h3>
+                </div>
+                <div>
+                    <h3>Current Weather</h3>
+                </div>
+                <div>
+                    <div><img class="sunset" src="images/1530391_weather_clouds_sun_sunny_icon.svg" alt="sunlogo" width="40"></div>
+                    <p><span id="gradesinF"></span>F</p>
+                    <p>Partly Cloudly</p>
+                    <p>High <span id="gradesinCH"></span></p>
+                    <p>Low <span id="gradesinCL"></span></p>
+                    <p>Humidity: 34%</p>
+                    <p>Sunrise 7:30am</p>
+                    <p>Sunrise: 9:59pm</p>
+                </div>
+                <div>
+                    <h3>Weather Forecast</h3>
+                    <p>Today <span id="gradesTo"></span></p>
+                    <p>Wednesday: <span id="gradesWe"></span></p>
+                    <p>Thursday: <span id="gradesTh"></span></p>
+                </div>
+            </section>
+            <div class="res-grid">
+
+            </div>
+        </main>
+        <footer>
+            <div>
+                <h4>Timbuktu Chamber of Commerce</h4>
+                <p>Jr. Junin 458</p>
+                <p>Trujillo, La Libertad</p>
+                <p><a href="info@gmail.com">info@gmail.com</a></p>
+                <p>+51 999999999</p>
+            </div>
+            <nav>
+                <a href="https://www.youtube.com/">
+                    <img src="images/icono-3d-youtube-psd-aislado_505631-107.jpg" alt="Facebook" width="20">
+                </a>
+                <a href="https://x.com/?lang=es">
+                    <img src="images/gratis-png-logotipo-de-la-aplicacion-de-twitter-area-azul-cielo-aqua-twitter-social.jpg" alt="Facebook" width="20">
+                </a>
+                <a href="https://www.linkedin.com/feed/">
+                    <img src="images/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.jpg" alt="Facebook" width="20">
+                </a>
+            </nav>
+            <div>
+                <p>WDD231 Class Project</p>
+                <p>Bruce Melendez</p>
+                <p class="yeardate">
+                    &copy; <span id="currentyear"></span> 😁 Bruce Melendez Lozano 😁 Cajabamba</p>
+                <p class="date" id="lastModified">Last Modification: </p>
+            </div>
+        </footer>
+    </body>
 </html>
