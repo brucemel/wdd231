@@ -12,8 +12,9 @@ body{
 }
 
 .champic{
-    margin-left: 10px;
+    margin-left: 40px;
     width: 130px;
+    color: green;
 }
 
 .fontcham{
@@ -22,6 +23,10 @@ body{
 
 h1{
     color: green;
+}
+
+a{
+    color: red;
 }
 
 .barraop {
@@ -63,9 +68,8 @@ h1{
 }
 
 .navigation a:hover {
-	background-color: #bbb;
-	color: #333;
 	font-weight: 700;
+    border-bottom: 2px solid red;
 }
 
 
@@ -73,3 +77,122 @@ h1{
     display: block;
 }
 
+.portalimg{
+    display: block;
+    max-width: 93.5%;
+    height: auto;
+}
+
+.hometitle{
+    text-align: start;
+    margin-left: auto;
+    color: red;
+}
+
+.firstcards{
+    display: flex;
+}
+
+.eventscard{
+    margin-left: auto;
+    border: 1px solid red;
+    margin-left: 20px;
+    margin: 5px;
+}
+
+.eventstitle{
+    color: red;
+    background-color: green;
+    padding-right: 400px;
+}
+
+.optionspoint{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    
+}
+
+.currentcard{
+    border: 1px solid red;
+    margin: 5px;
+}
+
+.currenttitle{
+    color: red;
+    background-color: green;
+    padding-right: 200px;
+}
+
+.weaterp{
+    text-align: center;
+}
+
+.sunset{
+    max-width: 100px;
+    margin-bottom: -70px;
+}
+
+.weaterresult{
+    border: 1px solid red;
+    margin: 5px;
+}
+
+.waetertittle{
+    color: red;
+    background-color: green;
+    padding-right: 150px;
+}
+
+.weaterpp{
+    padding: 18px;
+}
+
+footer{
+    display: flex;
+}
+
+.partoneoffoot{
+    padding: 10px;
+}
+
+.emailho{
+    text-decoration: none;
+    color: black;
+}
+
+.nonedeco{
+    text-decoration: none;
+}
+
+.logosred{
+    max-width: 50px;
+    border-radius: 20px;
+}
+
+
+.res-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 1rem;
+}
+
+#titlemem{
+    color: red;
+    background-color: green;
+}
+
+.elementofmem{
+    text-align: center;
+    font-size: 20px;
+}
+
+.elementimgof{
+    max-width: 250px;
+    display: block;
+}
+
+#emailofcom{
+    text-decoration: none;
+    color: red;
+}
