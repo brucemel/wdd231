@@ -90,11 +90,11 @@ a{
 }
 
 .firstcards{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .eventscard{
-    margin-left: auto;
     border: 1px solid red;
     margin-left: 20px;
     margin: 5px;
@@ -103,7 +103,7 @@ a{
 .eventstitle{
     color: red;
     background-color: green;
-    padding-right: 400px;
+    padding-right: 288px;
 }
 
 .optionspoint{
@@ -127,14 +127,18 @@ a{
     text-align: center;
 }
 
-.sunset{
+#myimgwea{
     max-width: 100px;
-    margin-bottom: -70px;
+    margin-bottom: -80px;
 }
 
 .weaterresult{
     border: 1px solid red;
     margin: 5px;
+}
+
+#gradesinF{
+    font-weight: bold;
 }
 
 .waetertittle{

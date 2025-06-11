@@ -18,6 +18,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Prata&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <script src="scripts/chamber.js" defer></script>
+        <script src="scripts/weather.js" defer></script>
     </head>
     <body>
         <header  class="profile">
@@ -45,18 +46,18 @@
                 </div>
                 <div class="currentcard">
                     <h3 class="currenttitle">Current Weather</h3>
-                    <div><img class="sunset" src="images/1530391_weather_clouds_sun_sunny_icon.svg" alt="sunlogo"></div>
-                    <p class="weaterp"><span id="gradesinF"></span>F</p>
-                    <p class="weaterp">Partly Cloudly</p>
-                    <p class="weaterp">High:<span id="gradesinCH"></span></p>
-                    <p class="weaterp">Low:<span id="gradesinCL"></span></p>
-                    <p class="weaterp">Humidity: 34%</p>
-                    <p class="weaterp">Sunrise 7:30am</p>
-                    <p class="weaterp">Sunrise: 9:59pm</p>
+                    <div><img id="myimgwea" src="" alt=""></div>
+                    <p class="weaterp" id="gradesinF"></p>
+                    <p class="weaterp" id="moodofweather"></p>
+                    <p class="weaterp">High: <span id="gradesinCH"></span></p>
+                    <p class="weaterp">Low: <span id="gradesinCL"></span></p>
+                    <p class="weaterp">Humidity: <span id="humiditywea"></span></p>
+                    <p class="weaterp">Sunrise: <span id="sunmornig"></span></p>
+                    <p class="weaterp">sunset: <span id="suneven"></span></p>
                 </div>
                 <div class="weaterresult">
                     <h3 class="waetertittle">Weather Forecast</h3>
-                    <p class="weaterpp">Today <span id="gradesTo"></span></p>
+                    <p class="weaterpp">Today: <span id="gradesTo"></span></p>
                     <p class="weaterpp">Wednesday: <span id="gradesWe"></span></p>
                     <p class="weaterpp">Thursday: <span id="gradesTh"></span></p>
                 </div>
