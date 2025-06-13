@@ -21,8 +21,10 @@ body{
     font-size: 15px;
 }
 
-h1{
+.titlecham{
     color: green;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 a{
