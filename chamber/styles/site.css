@@ -1,0 +1,37 @@
+:root{
+    --primarycolor: #D35400;
+    --secondcolor: #2C3E50;
+}
+
+*{
+    max-width: 1000px;
+}
+
+h1{
+    background-color: var(--primarycolor);
+    color: var(--secondcolor);
+}
+
+.name{
+    color: black;
+}
+
+h2{
+    color: var(--secondcolor);
+}
+
+h3 {
+    color: var(--secondcolor);
+}
+
+.orange {
+    background-color: var(--primarycolor);
+}
+
+.blue{
+    background-color: var(--secondcolor);
+}
+
+.topo{
+    font-family: Raleway, sans-serif;
+}
