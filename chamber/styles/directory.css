@@ -338,7 +338,7 @@ textarea{
 }
 
 #closeButton{
-    background-color: green;
+    background-color: red;
 }
 
 #dialogBox{
@@ -346,4 +346,11 @@ textarea{
     height: 120px;
     text-align: center;
     background-color: rgb(109, 144, 109);
+}
+
+#results{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
 }

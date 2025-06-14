@@ -33,8 +33,11 @@ document.addEventListener("DOMContentLoaded", () => {
 window.addEventListener('load', () => {
     const cards = document.querySelectorAll('.membership-card');
     cards.forEach((card, index) => {
-      setTimeout(() => {
-        card.classList.add('loaded');
-      }, index * 200);
+        setTimeout(() => {
+            card.classList.add('loaded');
+        }, index * 200);
     });
-  });
+});
+
+
+
