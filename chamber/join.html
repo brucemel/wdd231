@@ -35,35 +35,36 @@
             </nav>
         </header>
         <main>
-            <picture>
-                <img class="portalimg" src="images/GettyImages_670914134.0.jpeg" alt="Placeholder Kitten Image" loading="lazy">
-            </picture>
-            <h1 class="hometitle">Home</h2>
-            <section class="firstcards">
-                <div class="eventscard">
-                    <h3 class="eventstitle">Events</h3>
-                    <ul class="optionspoint"></ul>
-                </div>
-                <div class="currentcard">
-                    <h3 class="currenttitle">Current Weather</h3>
-                    <div><img id="myimgwea" src="" alt=""></div>
-                    <p class="weaterp" id="gradesinF"></p>
-                    <p class="weaterp" id="moodofweather"></p>
-                    <p class="weaterp">High: <span id="gradesinCH"></span></p>
-                    <p class="weaterp">Low: <span id="gradesinCL"></span></p>
-                    <p class="weaterp">Humidity: <span id="humiditywea"></span></p>
-                    <p class="weaterp">Sunrise: <span id="sunmornig"></span></p>
-                    <p class="weaterp">sunset: <span id="suneven"></span></p>
-                </div>
-                <div class="weaterresult">
-                    <h3 class="waetertittle">Weather Forecast</h3>
-                    <p class="weaterpp">Today: <span id="gradesTo"></span></p>
-                    <p class="weaterpp">Wednesday: <span id="gradesWe"></span></p>
-                    <p class="weaterpp">Thursday: <span id="gradesTh"></span></p>
-                </div>
-            </section>
-            <div class="res-grid">
-            </div>
+            <form action="thankyou.html" method="get">
+                <h1>Join</h1>
+                <section>
+                    <h2>Membership Aplication Form</h2>
+                    <div>
+                        <label for="firstName">First Name:</label>
+                        <input name="firstName" id="firstName" type="text" title="firstnam" required autocomplete="given-name">
+
+                        <label for="lastName">Last Name:</label>
+                        <input name="lastName" id="lastName" type="text" title="lastnam" required autocomplete="family-name">
+
+                        <label for="organizationtitle">Organizational Title</label>
+                        <input name="lastName" id="organizationtitle" type="text" pattern="[A-Za-z\s\-]{7,}" title="org-title" required autocomplete="organization-title">
+
+                        <label for="email">Email:</label>
+                        <input name="email" id="email" type="email" title="emailcham" placeholder="chamber@example.email" autocomplete="off">
+
+                        <label for="phone">Cell Phone</label>
+                        <input name="phone" id="phone" type="tel" placeholder="+51 999-999-999" title="cellphonecham" required autocomplete="tel">
+
+                        <label for="organizationname">Business/Organization's Name</label>
+                        <input name="orgname" id="organizationname" type="text" title="orgnam" required autocomplete="organization">
+                    </div>
+                    </section>
+                    <section>
+                        <div>
+                            <h2>Membership Levels</h2>
+                        </div>
+                    </section>
+            </form>
         </main>
         <footer>
             <div class="partoneoffoot">
