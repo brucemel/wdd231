@@ -57,6 +57,31 @@
 
                         <label for="organizationname">Business/Organization's Name</label>
                         <input name="orgname" id="organizationname" type="text" title="orgnam" required autocomplete="organization">
+
+                        <h3>Membership Levels</h3>
+                        <div class="npmem">
+                            <input type="radio" id="npmember" name="npmembership" value="NP">
+                            <label for="npmember" data-content="option of Membership">Non Profit Membership</label>
+                        </div>
+                        <div class="bronzemem">
+                            <input type="radio" id="bronzelevel" name="npmembership" value="Bronze">
+                            <label for="bronzelevel" data-content="option of Membership">Bronze Membership</label>
+                        </div>
+                        <div class="silvermem">
+                            <input type="radio" id="silverlevel" name="npmembership" value="Silver">
+                            <label for="silverlevel">Silver Membership</label>
+                        </div>
+                        <div class="goldmem">
+                            <input type="radio" id="goldlevel" name="npmembership" value="Gold">
+                            <label for="goldlevel">Gold Membership</label>
+                        </div>
+
+                        <label for="bsdescrip">Business Description</label>
+                        <textarea id="bsdescrip" name="textdescription" title="businessdescription" rows="2" cols="51"></textarea>
+
+                        <input type="hidden" name="timestamp" id="timestamp">
+
+                        <button class="buttonpost" type="submit">Post Review</button>
                     </div>
                     </section>
                     <section>
