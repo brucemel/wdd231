@@ -16,9 +16,9 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Prata&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Lobster&family=Prata&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <script src="scripts/chamber.js" defer></script>
-        <script src="scripts/weather.js" defer></script>
+        <script src="scripts/form.js" defer></script>
     </head>
     <body>
         <header  class="profile">
@@ -35,60 +35,80 @@
             </nav>
         </header>
         <main>
+            <h1 class="ftitleform">Join Page</h1>
             <form action="thankyou.html" method="get">
-                <h1>Join</h1>
-                <section>
-                    <h2>Membership Aplication Form</h2>
+                <section class="firstform">
+                    <h2 class="titleofform">Membership Aplication Form</h2>
                     <div>
-                        <label for="firstName">First Name:</label>
+                        <label class="blocklabel" for="firstName">First Name:</label>
                         <input name="firstName" id="firstName" type="text" title="firstnam" required autocomplete="given-name">
 
-                        <label for="lastName">Last Name:</label>
+                        <label class="blocklabel" for="lastName">Last Name:</label>
                         <input name="lastName" id="lastName" type="text" title="lastnam" required autocomplete="family-name">
 
-                        <label for="organizationtitle">Organizational Title</label>
-                        <input name="lastName" id="organizationtitle" type="text" pattern="[A-Za-z\s\-]{7,}" title="org-title" required autocomplete="organization-title">
+                        <label class="blocklabel" for="organizationtitle">Organizational Title</label>
+                        <input name="lastName" id="organizationtitle" type="text" pattern="[A-Za-z\s\-]{7,}" title="Organization Title" required autocomplete="organization-title">
 
-                        <label for="email">Email:</label>
+                        <label class="blocklabel" for="email">Email:</label>
                         <input name="email" id="email" type="email" title="emailcham" placeholder="chamber@example.email" autocomplete="off">
 
-                        <label for="phone">Cell Phone</label>
+                        <label class="blocklabel" for="phone">Cell Phone</label>
                         <input name="phone" id="phone" type="tel" placeholder="+51 999-999-999" title="cellphonecham" required autocomplete="tel">
 
-                        <label for="organizationname">Business/Organization's Name</label>
+                        <label class="blocklabel" for="organizationname">Business/Organization's Name</label>
                         <input name="orgname" id="organizationname" type="text" title="orgnam" required autocomplete="organization">
 
-                        <h3>Membership Levels</h3>
-                        <div class="npmem">
+                        <h3 class="blocklabel">Membership Levels</h3>
+                        <div class="optionslevel">
                             <input type="radio" id="npmember" name="npmembership" value="NP">
                             <label for="npmember" data-content="option of Membership">Non Profit Membership</label>
                         </div>
-                        <div class="bronzemem">
+                        <div class="optionslevel">
                             <input type="radio" id="bronzelevel" name="npmembership" value="Bronze">
                             <label for="bronzelevel" data-content="option of Membership">Bronze Membership</label>
                         </div>
-                        <div class="silvermem">
+                        <div class="optionslevel">
                             <input type="radio" id="silverlevel" name="npmembership" value="Silver">
                             <label for="silverlevel">Silver Membership</label>
                         </div>
-                        <div class="goldmem">
+                        <div class="optionslevel">
                             <input type="radio" id="goldlevel" name="npmembership" value="Gold">
                             <label for="goldlevel">Gold Membership</label>
                         </div>
 
-                        <label for="bsdescrip">Business Description</label>
-                        <textarea id="bsdescrip" name="textdescription" title="businessdescription" rows="2" cols="51"></textarea>
+                        <label class="blocklabel" for="bsdescrip">Business Description</label>
+                        <textarea id="bsdescrip" name="textdescription" title="businessdescription" rows="2" cols="30"></textarea>
 
                         <input type="hidden" name="timestamp" id="timestamp">
 
-                        <button class="buttonpost" type="submit">Post Review</button>
+                        <button id="butonsum" class="blocklabel" type="submit">Post Review</button>
                     </div>
-                    </section>
-                    <section>
-                        <div>
-                            <h2>Membership Levels</h2>
+                </section>
+                <section class="secondlevel">
+                    <div>
+                        <h2 class="titletwoform">Membership Levels</h2>
+                        <div class="nplevcar">
+                            <p class="membership-card">Non Profit Membership Level</p>
+                            <button class="membership-card" id="npmemlevel" type="button">Learn More</button>
                         </div>
-                    </section>
+                        <div class="nplevcar">
+                            <p class="membership-card">Bronze Membership Level</p>
+                            <button class="membership-card" id="bromemlevel" type="button">Learn More</button>
+                        </div>
+                        <div class="nplevcar">
+                            <p class="membership-card">Silver Membership Level</p>
+                            <button class="membership-card" id="silmemlevel" type="button">Learn More</button>
+                        </div>
+                        <div class="nplevcar">
+                        <p class="membership-card">Gold Membership Level</p>
+                        <button class="membership-card" id="goldmemlevel" type="button">Learn More</button>
+                        </div>
+                        <dialog id="dialogBox">
+                            <div></div>
+                            <button id="closeButton" type="button">Close</button>
+                        </dialog>
+                    </div>
+                </section>
             </form>
         </main>
         <footer>

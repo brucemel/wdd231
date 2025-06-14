@@ -202,3 +202,148 @@ footer{
     text-decoration: none;
     color: red;
 }
+
+form{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.blocklabel{
+    display: block;
+}
+
+.membership-card {
+  transform: translateY(30px);
+  opacity: 0;
+  transition: transform 0.6s ease-out, opacity 0.6s ease-out;
+}
+
+.membership-card.loaded {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+main{
+    font-family: Prata, sans-serif;
+}
+
+.ftitleform{
+    padding: 5px;
+    color: red;
+    font-size: 30px;
+}
+
+.titleofform{
+    margin-left: 15px;
+    font-size: 15px;
+    color: green;
+    margin-bottom: 10px;
+}
+
+.blocklabel{
+    color: red;
+    font-size: 12px; 
+    margin-bottom: 5px;
+}
+
+#firstName{
+    width: 250px;
+    margin-bottom: 15px;
+    color: green;
+}
+
+#lastName{
+    width: 250px;
+    margin-bottom: 15px;
+    color: green;
+}
+
+#organizationtitle{
+    width: 250px;
+    margin-bottom: 15px;
+    color: green;
+}
+
+#email{
+    width: 250px;
+    margin-bottom: 15px;
+    color: green;
+}
+
+#phone{
+    width: 250px;
+    margin-bottom: 15px;
+    color: green;
+}
+
+#organizationname{
+    width: 250px;
+    margin-bottom: 15px;
+    color: green;
+}
+
+.optionslevel{
+    font-size: 10px;
+    color: green;
+}
+
+textarea{
+    width: 250px;
+    margin-bottom: 15px;
+    color: green;
+}
+
+#butonsum{
+    background-color: green;
+    border-radius: 10px;
+}
+
+.secondlevel{
+    text-align: center;
+}
+
+.titletwoform{
+    font-size: 15px;
+    text-align: start;
+    color: green;
+    margin-top: -35px
+}
+
+.nplevcar{
+    padding: 35px;
+    background-color: green;
+    margin: 5px;
+    color: red;
+    border-radius: 10px 40px;
+}
+
+#npmemlevel{
+    background-color: red;
+    margin-top: 10px;
+}
+
+#bromemlevel{
+    background-color: red;
+    margin-top: 10px;
+}
+
+#silmemlevel{
+    background-color: red;
+    margin-top: 10px;
+}
+
+#goldmemlevel{
+    background-color: red;
+    margin-top: 10px;
+}
+
+#closeButton{
+    background-color: green;
+}
+
+#dialogBox{
+    width: 500px;
+    height: 120px;
+    text-align: center;
+    background-color: rgb(109, 144, 109);
+}

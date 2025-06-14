@@ -55,4 +55,17 @@
         margin-left: 0;
         padding: 10px;
     }
+
+    .firstform{
+    margin-left: 100px;
+    }
+
+    .secondlevel{
+    text-align: center;
+    margin-left: 100px;
+    }
+
+    .titletwoform{
+        margin-top: 10px;
+    }
 }
