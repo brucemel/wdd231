@@ -1,76 +1,76 @@
-*{
+* {
     max-width: 1200px;
     margin: auto;
 }
 
-body{
+body {
     font-family: roboto, serif;
 }
 
-.profile{
+.profile {
     display: flex;
 }
 
-.champic{
+.champic {
     margin-left: 40px;
     width: 130px;
     color: green;
 }
 
-.fontcham{
+.fontcham {
     font-size: 15px;
 }
 
-.titlecham{
+.titlecham {
     color: green;
     font-size: 50px;
     font-weight: bold;
 }
 
-a{
+a {
     color: red;
 }
 
 .barraop {
-	max-width: 700px;
-	margin: 1rem auto;
+    max-width: 700px;
+    margin: 1rem auto;
 }
 
 #menu {
-	font-size: 1.5rem;
-	border: 0;
-	color: red;
-	position: absolute;
-	top: 1rem;
-	right: 1rem;
+    font-size: 1.5rem;
+    border: 0;
+    color: red;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
 }
 
 #menu::before {
-	content: "☰";
+    content: "☰";
 }
 
 #menu.open::before {
-	content: "❌";
+    content: "❌";
 }
 
 .navigation {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
 }
 
 .navigation a {
-	display: none;
-	padding: 20px;
-	text-align: center;
-	text-decoration: none;
+    display: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
     font-size: 20px;
     color: red;
 }
 
 .navigation a:hover {
-	font-weight: 700;
+    font-weight: 700;
     border-bottom: 2px solid red;
 }
 
@@ -79,237 +79,237 @@ a{
     display: block;
 }
 
-.portalimg{
+.portalimg {
     display: block;
     max-width: 93.5%;
     height: auto;
 }
 
-.hometitle{
+.hometitle {
     text-align: start;
     margin-left: auto;
     color: red;
 }
 
-.firstcards{
+.firstcards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
-.eventscard{
+.eventscard {
     border: 1px solid red;
     margin-left: 20px;
     margin: 5px;
 }
 
-.eventstitle{
+.eventstitle {
     color: red;
     background-color: green;
     padding-right: 288px;
 }
 
-.optionspoint{
+.optionspoint {
     padding-top: 90px;
     padding-bottom: 90px;
-    
+
 }
 
-.currentcard{
+.currentcard {
     border: 1px solid red;
     margin: 5px;
 }
 
-.currenttitle{
+.currenttitle {
     color: red;
     background-color: green;
     padding-right: 200px;
 }
 
-.weaterp{
+.weaterp {
     text-align: center;
 }
 
-#myimgwea{
+#myimgwea {
     max-width: 100px;
     margin-bottom: -80px;
 }
 
-.weaterresult{
+.weaterresult {
     border: 1px solid red;
     margin: 5px;
 }
 
-#gradesinF{
+#gradesinF {
     font-weight: bold;
 }
 
-.waetertittle{
+.waetertittle {
     color: red;
     background-color: green;
     padding-right: 150px;
 }
 
-.weaterpp{
+.weaterpp {
     padding: 18px;
 }
 
-footer{
+footer {
     display: flex;
 }
 
-.partoneoffoot{
+.partoneoffoot {
     padding: 10px;
 }
 
-.emailho{
+.emailho {
     text-decoration: none;
     color: black;
 }
 
-.nonedeco{
+.nonedeco {
     text-decoration: none;
 }
 
-.logosred{
+.logosred {
     max-width: 50px;
     border-radius: 20px;
 }
 
 
 .res-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
-  margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin: 1rem;
 }
 
-#titlemem{
+#titlemem {
     color: red;
     background-color: green;
 }
 
-.elementofmem{
+.elementofmem {
     text-align: center;
     font-size: 20px;
 }
 
-.elementimgof{
+.elementimgof {
     max-width: 250px;
     display: block;
 }
 
-#emailofcom{
+#emailofcom {
     text-decoration: none;
     color: red;
 }
 
-form{
+form {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
-.blocklabel{
+.blocklabel {
     display: block;
 }
 
 .membership-card {
-  transform: translateY(30px);
-  opacity: 0;
-  transition: transform 0.6s ease-out, opacity 0.6s ease-out;
+    transform: translateY(30px);
+    opacity: 0;
+    transition: transform 0.6s ease-out, opacity 0.6s ease-out;
 }
 
 .membership-card.loaded {
-  transform: translateY(0);
-  opacity: 1;
+    transform: translateY(0);
+    opacity: 1;
 }
 
-main{
+main {
     font-family: Prata, sans-serif;
 }
 
-.ftitleform{
+.ftitleform {
     padding: 5px;
     color: red;
     font-size: 30px;
 }
 
-.titleofform{
+.titleofform {
     margin-left: 15px;
     font-size: 15px;
     color: green;
     margin-bottom: 10px;
 }
 
-.blocklabel{
+.blocklabel {
     color: red;
-    font-size: 12px; 
+    font-size: 12px;
     margin-bottom: 5px;
 }
 
-#firstName{
+#firstName {
     width: 250px;
     margin-bottom: 15px;
     color: green;
 }
 
-#lastName{
+#lastName {
     width: 250px;
     margin-bottom: 15px;
     color: green;
 }
 
-#organizationtitle{
+#organizationtitle {
     width: 250px;
     margin-bottom: 15px;
     color: green;
 }
 
-#email{
+#email {
     width: 250px;
     margin-bottom: 15px;
     color: green;
 }
 
-#phone{
+#phone {
     width: 250px;
     margin-bottom: 15px;
     color: green;
 }
 
-#organizationname{
+#organizationname {
     width: 250px;
     margin-bottom: 15px;
     color: green;
 }
 
-.optionslevel{
+.optionslevel {
     font-size: 10px;
     color: green;
 }
 
-textarea{
+textarea {
     width: 250px;
     margin-bottom: 15px;
     color: green;
 }
 
-#butonsum{
+#butonsum {
     background-color: green;
     border-radius: 10px;
 }
 
-.secondlevel{
+.secondlevel {
     text-align: center;
 }
 
-.titletwoform{
+.titletwoform {
     font-size: 15px;
     text-align: start;
     color: green;
     margin-top: -35px
 }
 
-.nplevcar{
+.nplevcar {
     padding: 35px;
     background-color: green;
     margin: 5px;
@@ -317,39 +317,59 @@ textarea{
     border-radius: 10px 40px;
 }
 
-#npmemlevel{
+#npmemlevel {
     background-color: red;
     margin-top: 10px;
 }
 
-#bromemlevel{
+#bromemlevel {
     background-color: red;
     margin-top: 10px;
 }
 
-#silmemlevel{
+#silmemlevel {
     background-color: red;
     margin-top: 10px;
 }
 
-#goldmemlevel{
+#goldmemlevel {
     background-color: red;
     margin-top: 10px;
 }
 
-#closeButton{
+#closeButton {
     background-color: red;
 }
 
-#dialogBox{
+#dialogBox {
     width: 500px;
     height: 120px;
     text-align: center;
     background-color: rgb(109, 144, 109);
 }
 
-#results{
+#results {
     width: 300px;
     height: 50px;
     text-align: center;
+}
+
+.titlebus {
+    color: green;
+    border-top: 1px solid green;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#visit-message {
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+#visit-message::before {
+  content: "❗";
 }

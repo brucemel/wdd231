@@ -1,0 +1,21 @@
+@media only screen and (min-width: 38rem) {
+
+    #placeslima div {
+        grid-template-areas:
+            "photo_url name"
+            "photo_url description"
+            "photo_url address"
+            "photo_url button";
+    }
+
+    #placeslima div img {
+        width: 300px;
+        height: 230px;
+    }
+
+    img:hover {
+        transform: scale(1.05);
+        filter: brightness(1.1);
+        cursor: pointer;
+    }
+}

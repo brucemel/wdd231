@@ -1,70 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:title" content="Chamber Directory Page">
-        <meta property="og:description" content="Help to the people find work.">
-        <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/2/27/U.S._Chamber_of_Commerce_Building-4.jpg">
-        <meta property="og:url" content="https://brucemel.github.io/wdd231/chamber/directory.html">
-        <meta name="description" content="Help to the people to fing job.">
-        <meta name="author" content="Bruce Melendez Lozano">
-        <title>Chamber of Directory Page</title>
-        <link rel="icon" href="images/favicon.ico">
-        <link rel="stylesheet" href="styles/directory.css">
-        <link rel="stylesheet" href="styles/mediaquedi.css">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Prata&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <script src="scripts/chamber.js" defer></script>
-        <script src="scripts/disco.js" defer></script>
-    </head>
-    <body>
-        <header  class="profile">
-                <img class="champic" src="images/logochamber.jpeg" alt="imgofchamber" width="25">
-                <p class="titlecham">Trujillo <br><span class="fontcham">Chamber of commerce</span></p>
-            <button type="button" id="menu"></button>
-            <nav class="barraop">
-                <ul class="navigation">
-                    <li><a href="directory.html" title="Home"> <span class="home1">Home</span></a></li>
-                    <li><a href="#" title="Discover" class="active">Discover</a></li>
-                    <li><a href="#" title="Directory">Directory</a></li>
-                    <li><a href="join.html" title="Join">Join</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-          <aside id="visit-message" class="sidebar">
-          <!-- El mensaje se insertará aquí automáticamente -->
-        </aside>
-        </main>
-        <footer>
-            <div class="partoneoffoot">
-                <h4>Timbuktu Chamber of Commerce</h4>
-                <p>Jr. Junin 458</p>
-                <p>Trujillo, La Libertad</p>
-                <p><a href="info@gmail.com" class="emailho">info@gmail.com</a></p>
-                <p>+51 999999999</p>
-            </div>
-            <div>
-                <a href="https://www.youtube.com/" class="nonedeco">
-                    <img class="logosred" src="images/youtubelog.jpg" alt="youtube">
-                </a>
-                <a href="https://x.com/?lang=es" class="nonedeco">
-                    <img class="logosred" src="images/xlogo.jpg" alt="Twitter">
-                </a>
-                <a href="https://www.linkedin.com/feed/" class="nonedeco">
-                    <img class="logosred" src="images/linkedinlog.jpg" alt="linkedin">
-                </a>
-            </div>
-            <div class="threesec">
-                <p>WDD231 Class Project</p>
-                <p>Bruce Melendez</p>
-                <p class="yeardate">
-                    &copy; <span id="currentyear"></span> Bruce Melendez Lozano - Cajabamba</p>
-                <p class="date" id="lastModified">Last Modification: </p>
-            </div>
-        </footer>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Chamber Directory Page">
+  <meta property="og:description" content="Help to the people find work.">
+  <meta property="og:image"
+    content="https://upload.wikimedia.org/wikipedia/commons/2/27/U.S._Chamber_of_Commerce_Building-4.jpg">
+  <meta property="og:url" content="https://brucemel.github.io/wdd231/chamber/directory.html">
+  <meta name="description" content="Help to the people to fing job.">
+  <meta name="author" content="Bruce Melendez Lozano">
+  <title>Chamber of Directory Page</title>
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="styles/directory.css">
+  <link rel="stylesheet" href="styles/mediaquedi.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/large.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lobster&family=Prata&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <script src="scripts/chamber.js" defer></script>
+  <script src="scripts/disco.js" type="module"></script>
+</head>
+
+<body>
+  <header class="profile">
+    <img class="champic" src="images/logochamber.jpeg" alt="imgofchamber" width="25">
+    <p class="titlecham">Trujillo <br><span class="fontcham">Chamber of commerce</span></p>
+    <button type="button" id="menu"></button>
+    <nav class="barraop">
+      <ul class="navigation">
+        <li><a href="index.html" title="Home"> <span class="home1">Home</span></a></li>
+        <li><a href="discover.html" title="Discover" class="active">Discover</a></li>
+        <li><a href="#" title="Directory">Directory</a></li>
+        <li><a href="join.html" title="Join">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 class="titlebus">Trujillo businesses</h1>
+    
+    <aside id="visit-message" class="sidebar">
+    </aside>
+
+    <div id="placeslima">
+    </div>
+    <dialog id="dialogBox">
+      <div></div>
+      <button id="closeButton" type="button">Close</button>
+    </dialog>
+  </main>
+  <footer>
+    <div class="partoneoffoot">
+      <h4>Timbuktu Chamber of Commerce</h4>
+      <p>Jr. Junin 458</p>
+      <p>Trujillo, La Libertad</p>
+      <p><a href="info@gmail.com" class="emailho">info@gmail.com</a></p>
+      <p>+51 999999999</p>
+    </div>
+    <div>
+      <a href="https://www.youtube.com/" class="nonedeco">
+        <img class="logosred" src="images/youtubelog.jpg" alt="youtube">
+      </a>
+      <a href="https://x.com/?lang=es" class="nonedeco">
+        <img class="logosred" src="images/xlogo.jpg" alt="Twitter">
+      </a>
+      <a href="https://www.linkedin.com/feed/" class="nonedeco">
+        <img class="logosred" src="images/linkedinlog.jpg" alt="linkedin">
+      </a>
+    </div>
+    <div class="threesec">
+      <p>WDD231 Class Project</p>
+      <p>Bruce Melendez</p>
+      <p class="yeardate">
+        &copy; <span id="currentyear"></span> Bruce Melendez Lozano - Cajabamba</p>
+      <p class="date" id="lastModified">Last Modification: </p>
+    </div>
+  </footer>
+</body>
+
 </html>

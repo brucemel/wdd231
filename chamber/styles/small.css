@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+#placeslima div{
+    margin: 1rem 8px;
+    border: 1px solid #999;
+    background-color: #eee;
+    border-radius: 8px;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-areas: 
+    "name"
+    "photo_url"
+    "description"
+    "address";
+}
+
+#placeslima div h2{
+    margin: 1rem 10px;
+    grid-area: name;
+}
+
+#placeslima div img{
+    width: 100%;
+    grid-area: photo_url;
+}
+
+#placeslima div p{
+    margin: 1rem 10px;
+    grid-area: description;
+}
+
+#placeslima div address{
+    margin: 1rem 10px;
+    grid-area: address;
+}
+
+#placeslima div button{
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: rgb(131, 200, 131);
+    border-radius: 5px;
+}
