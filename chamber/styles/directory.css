@@ -370,5 +370,5 @@ textarea {
 }
 
 #visit-message::before {
-  content: "❗";
+    content: "❗";
 }

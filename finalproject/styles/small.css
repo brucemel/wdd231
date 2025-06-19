@@ -99,11 +99,6 @@ nav.open {
     padding-right: 288px;
 }
 
-.optionspoint {
-    padding-top: 90px;
-    padding-bottom: 90px;
-}
-
 .currentcard {
     border: 1px solid #2AA198;
     margin: 5px;
@@ -174,4 +169,12 @@ footer {
     background-color: #2AA198;
     padding: 1rem;
     color: #002B36;
+}
+
+.textofca{
+    text-align: center;
+    padding: 10px;
+      overflow: auto;
+      box-sizing: border-box;
+      word-wrap: break-word;
 }
