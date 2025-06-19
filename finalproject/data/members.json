@@ -1,0 +1,74 @@
+{
+  "members1": [
+    {
+      "name": "Supermercado Central",
+      "address": "Av. América 123, Trujillo",
+      "phone": "999 123 456",
+      "website": "https://supermercado.com",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReGvzxZ8lfAfKaOg344_-mtRcOSYlp_A5iVA&s",
+      "membershipLevel": 1,
+      "membership":"Gold Membership",
+      "description": "Supplier of food and household products."
+    },
+    {
+      "name": "Panadería Trujillo",
+      "address": "Jr. Pizarro 789, Trujillo",
+      "phone": "988 765 432",
+      "website": "https://pantrujillo.com",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSomxDniSycRqGKCfur3eJEJ2LLmyF_OP_iPA&s",
+      "membershipLevel": 2,
+      "membership":"Silver Membership",
+      "description": "Artisanal bakery with over 20 years of experience."
+    },
+    {
+      "name": "Hotel Libertad",
+      "address": "Calle Grau 456, Trujillo",
+      "phone": "977 654 321",
+      "website": "https://hotellibertad.com",
+      "logo": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/cd/2a/c6/costa-del-sol-wyndham.jpg?w=1400&h=800&s=1",
+      "membershipLevel": 3,
+      "membership":"Bronze Membership",
+      "description": "5-star hotel with rooms and event services."
+    },
+    {
+      "name": "Tienda de Tecnología X",
+      "address": "Av. Larco 999, Trujillo",
+      "phone": "944 321 654",
+      "website": "https://tecnologiax.com",
+      "logo": "https://enterados.pe/wp-content/uploads/2021/12/tecstore-trujillo-mall-plaza.jpg?x49780",
+      "membershipLevel": 1,
+      "membership":"Gold Membership",
+      "description": "ElElectronics and computer accessories."
+    },
+    {
+      "name": "Restaurante La Huaca",
+      "address": "Jr. Ayacucho 111, Trujillo",
+      "phone": "987 654 321",
+      "website": "https://lahuaca.com",
+      "logo": "https://static.wixstatic.com/media/8a31fd_5eabc0c4fbc84dbea8a761ff9761ca89~mv2.jpg/v1/fill/w_1730,h_869,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/8a31fd_5eabc0c4fbc84dbea8a761ff9761ca89~mv2.jpg",
+      "membershipLevel": 2,
+      "membership":"Silver Membership",
+      "description": "Traditional and fusion cuisine."
+    },
+    {
+      "name": "Consultora XYZ",
+      "address": "Calle Los Laureles 222, Trujillo",
+      "phone": "933 123 789",
+      "website": "https://consultoraxyz.com",
+      "logo": "https://marketinginsiderreview.com/wp-content/uploads/2024/01/ingrid-perez-trujillo-google-colombia-900x506.jpg",
+      "membershipLevel": 3,
+      "membership":"Bronze Membership",
+      "description": "Legal and financial consulting services."
+    },
+    {
+      "name": "Gimnasio FitPro",
+      "address": "Av. España 777, Trujillo",
+      "phone": "911 111 222",
+      "website": "https://fitpro.com",
+      "logo": "https://www.gimnasios.com/im/media/YTo0OntzOjI6ImlkIjtpOjExMzA4NjtzOjE6InciO2k6MzAwO3M6MToiaCI7aTozMDA7czoxOiJ0IjtzOjIzOiJwcm9maWxlLWNhcm91c2VsLXNsaWRlciI7fQ==",
+      "membershipLevel": 1,
+      "membership":"Gold Membership",
+      "description": "Fitness and wellness center."
+    }
+  ]
+}
