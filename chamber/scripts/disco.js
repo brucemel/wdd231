@@ -27,11 +27,11 @@ function displayItems(places) {
 
     const button = document.createElement('button');
     button.innerText = "Learn More";
-    button.classList.add('learn-more-btn'); // puedes estilizarlo con CSS
+    button.classList.add('learn-more-btn');
     button.addEventListener('click', () => {
       dialogBox.showModal();
       dialogBoxText.innerHTML = `${x.moreinfo}`
-      // O puedes redirigir a otra página o mostrar más detalles
+
     });
     thecard.appendChild(button);
 
@@ -56,10 +56,10 @@ window.addEventListener('DOMContentLoaded', () => {
   const now = Date.now();
 
   if (!lastVisit) {
-    // Primera vez que visita
+
     sidebar.textContent = "Welcome! Let us know if you have any questions.";
   } else {
-    // Ya había visitado antes
+
     const daysBetween = Math.floor((now - Number(lastVisit)) / (1000 * 60 * 60 * 24));
     if (daysBetween === 0) {
       sidebar.textContent = "Back so soon! Awesome!";
@@ -70,7 +70,7 @@ window.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Guardar la fecha actual como última visita
+
   localStorage.setItem("lastVisit", now);
 });
 
