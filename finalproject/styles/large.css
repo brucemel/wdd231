@@ -27,4 +27,12 @@
     body {
         font-family: Prata, serif;
     }
+
+    footer {
+        display: flex;
+    }
+
+    .videolink {
+        color: #002B36;
+    }
 }

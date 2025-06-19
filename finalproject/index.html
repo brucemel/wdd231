@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Final Project: Interplast Home Page">
     <meta property="og:description" content="The customers know and orders our products.">
-    <meta property="og:image" content="https://pbs.twimg.com/profile_images/657365525463326720/627o0NVo_400x400.jpg">
+    <meta property="og:image" content="https://inspiredadventures.com.au/wp-content/uploads/2023/11/logo-600-5.jpg  ">
     <meta property="og:url" content="https://brucemel.github.io/wdd231/finalproject/index.html">
     <meta name="description" content="The customers know and orders our products.">
     <meta name="author" content="Bruce Melendez Lozano">
@@ -27,22 +27,72 @@
     <header>
         <img class="logoimg" src="images/logo.jpg" alt="interplastlogo">
         <span>INTERPLAST</span>
-        <button id="myButton"></button>
+        <button id="myButton" title="responsivemenu"></button>
     </header>
     <nav id="animateme">
         <ul class="menuLinks">
-            <li><a href="#" title="Home Page">Page One</a></li>
+            <li><a href="index.html" title="Home Page">Home Page</a></li>
             <li><a href="#" title="service">page three</a></li>
             <li><a href="#" title="history">page four</a></li>
         </ul>
     </nav>
     <main>
-        <h1>Page one</h1>
-
+        <h1 class="hometitle">Interplast Home Page</h1>
+            <section class="firstcards">
+                <div class="eventscard">
+                    <h3 class="eventstitle">Events</h3>
+                    <ul class="optionspoint"></ul>
+                </div>
+                <div class="currentcard">
+                    <h3 class="currenttitle">Current Weather</h3>
+                    <div><img id="myimgwea" src="" alt=""></div>
+                    <p class="weaterp" id="gradesinF"></p>
+                    <p class="weaterp" id="moodofweather"></p>
+                    <p class="weaterp">High: <span id="gradesinCH"></span></p>
+                    <p class="weaterp">Low: <span id="gradesinCL"></span></p>
+                    <p class="weaterp">Humidity: <span id="humiditywea"></span></p>
+                    <p class="weaterp">Sunrise: <span id="sunmornig"></span></p>
+                    <p class="weaterp">sunset: <span id="suneven"></span></p>
+                </div>
+                <div class="weaterresult">
+                    <h3 class="waetertittle">Weather Forecast</h3>
+                    <p class="weaterpp">Today: <span id="gradesTo"></span></p>
+                    <p class="weaterpp">Wednesday: <span id="gradesWe"></span></p>
+                    <p class="weaterpp">Thursday: <span id="gradesTh"></span></p>
+                </div>
+            </section>
+            <div class="res-grid">
+            </div>
     </main>
     <footer>
+            <div class="partoneoffoot">
+                <h4>Timbuktu Chamber of Commerce</h4>
+                <p>Jr. Junin 458</p>
+                <p>Trujillo, La Libertad</p>
+                <p><a href="info@gmail.com" class="emailho">info@gmail.com</a></p>
+                <p>+51 999999999</p>
+            </div>
+            <div>
+                <a href="https://www.youtube.com/" class="nonedeco">
+                    <img class="logosred" src="images/youtubelog.jpg" alt="youtube">
+                </a>
+                <a href="https://x.com/?lang=es" class="nonedeco">
+                    <img class="logosred" src="images/xlogo.jpg" alt="Twitter">
+                </a>
+                <a href="https://www.linkedin.com/feed/" class="nonedeco">
+                    <img class="logosred" src="images/linkedinlog.jpg" alt="linkedin">
+                </a>
+            </div>
+            <div class="threesec">
+                <p>WDD231 Class Project</p>
+                <p>Bruce Melendez</p>
+                <p class="yeardate">
+                    &copy; <span id="currentyear"></span> Bruce Melendez Lozano - Cajabamba</p>
+                <p class="date" id="lastModified">Last Modification: </p>
+            </div>
 
-    </footer>
+            <p>Link of my video: <a class="videolink" href="https://www.youtube.com/watch?v=zQyrhjEAqLs" target="_blank">Interplast Final Project</a></p>
+        </footer>
 </body>
 
 </html>

@@ -50,7 +50,7 @@ nav {
 ul.menuLinks li a {
     display: block;
     padding: .75rem 2vw;
-    color: #fff;
+    color: #FDF6E3;
     text-decoration: none;
 }
 
@@ -76,7 +76,102 @@ nav.open {
     grid-template-rows: 1fr;
 }
 
+.hometitle {
+    text-align: start;
+    margin-left: auto;
+    color: #002B36;
+}
+
+.firstcards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.eventscard {
+    border: 1px solid #2AA198;
+    margin-left: 20px;
+    margin: 5px;
+}
+
+.eventstitle {
+    color: #002B36;
+    background-color: #2AA198;
+    padding-right: 288px;
+}
+
+.optionspoint {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.currentcard {
+    border: 1px solid #2AA198;
+    margin: 5px;
+}
+
+.currenttitle {
+    color: #002B36;
+    background-color: #2AA198;
+}
+
+.weaterp {
+    text-align: center;
+}
+
+#myimgwea {
+    max-width: 100px;
+    margin-bottom: -80px;
+}
+
+.weaterresult {
+    border: 1px solid #2AA198;
+    margin: 5px;
+}
+
+#gradesinF {
+    font-weight: bold;
+}
+
+.waetertittle {
+    color: #002B36;
+    background-color: #2AA198;
+    padding-right: 150px;
+}
+
+.weaterpp {
+    padding: 18px;
+}
+
+
+.partoneoffoot {
+    padding: 10px;
+}
+
+.emailho {
+    text-decoration: none;
+    color: #002B36;
+}
+
+.nonedeco {
+    text-decoration: none;
+}
+
+.logosred {
+    max-width: 50px;
+    border-radius: 20px;
+}
+
+.threesec{
+    padding: 10px;
+}
+
+.videolink{
+    color: #002B36;
+}
+
 footer {
-    background-color: #bbb;
+    margin-top: 10px;
+    background-color: #2AA198;
     padding: 1rem;
+    color: #002B36;
 }
