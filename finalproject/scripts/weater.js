@@ -11,7 +11,6 @@ const myTodaywea = document.querySelector('#gradesTo');
 const myWednesdaywea = document.querySelector('#gradesWe');
 const myThursdaywea = document.querySelector('#gradesTh');
 
-
 const myKey = "72ff68f674eff36ec01b3fd843e02251";
 const myLat = "-8.11198940289915";
 const myLong = "-79.02859361872879";
@@ -19,19 +18,18 @@ const myLong = "-79.02859361872879";
 const myURL = `https://api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLong}&appid=${myKey}&units=imperial`;
 const myURL1 = `https://api.openweathermap.org/data/2.5/forecast?lat=${myLat}&lon=${myLong}&appid=${myKey}&units=imperial`;
 
-
 async function fetchCurrentWeather() {
   try {
     const response = await fetch(myURL);
     if (response.ok) {
       const data = await response.json();
-      console.log(data);
+      // console.log(data);
       displayCurrentWeather(data);
     } else {
       throw Error(await response.text());
     }
   } catch (error) {
-    console.log(error);
+    // console.error(error);
   }
 }
 
@@ -53,20 +51,20 @@ async function fetchForecast() {
     const response = await fetch(myURL1);
     if (response.ok) {
       const data = await response.json();
-      console.log(data);
+      // console.log(data);
       displayForecast(data);
     } else {
       throw Error(await response.text());
     }
   } catch (error) {
-    console.log(error);
+    // console.error(error);
   }
 }
 
 function displayForecast(data) {
   myTodaywea.innerHTML = `${data.list[0].main.temp}&deg;F`;
-  myWednesdaywea.innerHTML = `${data.list[8].main.temp}&deg;F`; // 
-  myThursdaywea.innerHTML = `${data.list[16].main.temp}&deg;F`; // 
+  myWednesdaywea.innerHTML = `${data.list[8].main.temp}&deg;F`;
+  myThursdaywea.innerHTML = `${data.list[16].main.temp}&deg;F`;
 }
 
 fetchCurrentWeather();
