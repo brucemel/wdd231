@@ -1,74 +1,204 @@
 {
-  "members1": [
+  "plastic": [
     {
-      "name": "Supermercado Central",
-      "address": "Av. América 123, Trujillo",
-      "phone": "999 123 456",
-      "website": "https://supermercado.com",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReGvzxZ8lfAfKaOg344_-mtRcOSYlp_A5iVA&s",
-      "membershipLevel": 1,
-      "membership":"Gold Membership",
-      "description": "Supplier of food and household products."
-    },
-    {
-      "name": "Panadería Trujillo",
-      "address": "Jr. Pizarro 789, Trujillo",
-      "phone": "988 765 432",
-      "website": "https://pantrujillo.com",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSomxDniSycRqGKCfur3eJEJ2LLmyF_OP_iPA&s",
+      "name": "Plastic Glass",
+      "address": "Warehouse in Trujillo",
+      "phone": "Quality: Plastic",
+      "website": "https://interplastic.com",
+      "logo": "https://placehold.co/600x400?text=Plastic+Glass",
       "membershipLevel": 2,
-      "membership":"Silver Membership",
-      "description": "Artisanal bakery with over 20 years of experience."
+      "membership": "Also available in Chiclayo",
+      "description": "Designed for convenience and style."
     },
     {
-      "name": "Hotel Libertad",
-      "address": "Calle Grau 456, Trujillo",
-      "phone": "977 654 321",
-      "website": "https://hotellibertad.com",
-      "logo": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/cd/2a/c6/costa-del-sol-wyndham.jpg?w=1400&h=800&s=1",
+      "name": "Plastic Spoon",
+      "address": "Warehouse in Trujillo",
+      "phone": "Quality: Plastic",
+      "website": "https://interplastic.com",
+      "logo": "https://placehold.co/600x400?text=Plastic+Spoon",
       "membershipLevel": 3,
-      "membership":"Bronze Membership",
-      "description": "5-star hotel with rooms and event services."
+      "membership": "Also available in Chimbote",
+      "description": "Designed for convenience and style."
     },
     {
-      "name": "Tienda de Tecnología X",
-      "address": "Av. Larco 999, Trujillo",
-      "phone": "944 321 654",
-      "website": "https://tecnologiax.com",
-      "logo": "https://enterados.pe/wp-content/uploads/2021/12/tecstore-trujillo-mall-plaza.jpg?x49780",
-      "membershipLevel": 1,
-      "membership":"Gold Membership",
-      "description": "ElElectronics and computer accessories."
+      "name": "Plastic Fork",
+      "address": "Warehouse in Trujillo",
+      "phone": "Quality: Plastic",
+      "website": "https://interplastic.com",
+      "logo": "https://placehold.co/600x400?text=Plastic+Fork",
+      "membershipLevel": 3,
+      "membership": "Also available in Chimbote",
+      "description": "Suitable for home and events."
     },
     {
-      "name": "Restaurante La Huaca",
-      "address": "Jr. Ayacucho 111, Trujillo",
-      "phone": "987 654 321",
-      "website": "https://lahuaca.com",
-      "logo": "https://static.wixstatic.com/media/8a31fd_5eabc0c4fbc84dbea8a761ff9761ca89~mv2.jpg/v1/fill/w_1730,h_869,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/8a31fd_5eabc0c4fbc84dbea8a761ff9761ca89~mv2.jpg",
+      "name": "Plastic Knife",
+      "address": "Warehouse in Trujillo",
+      "phone": "Quality: Plastic",
+      "website": "https://interplastic.com",
+      "logo": "https://placehold.co/600x400?text=Plastic+Knife",
       "membershipLevel": 2,
-      "membership":"Silver Membership",
-      "description": "Traditional and fusion cuisine."
+      "membership": "Also available in Chiclayo",
+      "description": "Perfect for daily use."
     },
     {
-      "name": "Consultora XYZ",
-      "address": "Calle Los Laureles 222, Trujillo",
-      "phone": "933 123 789",
-      "website": "https://consultoraxyz.com",
-      "logo": "https://marketinginsiderreview.com/wp-content/uploads/2024/01/ingrid-perez-trujillo-google-colombia-900x506.jpg",
-      "membershipLevel": 3,
-      "membership":"Bronze Membership",
-      "description": "Legal and financial consulting services."
-    },
-    {
-      "name": "Gimnasio FitPro",
-      "address": "Av. España 777, Trujillo",
-      "phone": "911 111 222",
-      "website": "https://fitpro.com",
-      "logo": "https://www.gimnasios.com/im/media/YTo0OntzOjI6ImlkIjtpOjExMzA4NjtzOjE6InciO2k6MzAwO3M6MToiaCI7aTozMDA7czoxOiJ0IjtzOjIzOiJwcm9maWxlLWNhcm91c2VsLXNsaWRlciI7fQ==",
+      "name": "Plastic Plate",
+      "address": "Warehouse in Trujillo",
+      "phone": "Quality: Plastic",
+      "website": "https://interplastic.com",
+      "logo": "https://placehold.co/600x400?text=Plastic+Plate",
       "membershipLevel": 1,
-      "membership":"Gold Membership",
-      "description": "Fitness and wellness center."
+      "membership": "Available only in Trujillo",
+      "description": "Ideal for indoor and outdoor use."
+    },
+    {
+      "name": "Plastic Bowl",
+      "address": "Warehouse in Trujillo",
+      "phone": "Quality: Plastic",
+      "website": "https://interplastic.com",
+      "logo": "https://placehold.co/600x400?text=Plastic+Bowl",
+      "membershipLevel": 3,
+      "membership": "Also available in Chimbote",
+      "description": "Reusable and lightweight design."
+    },
+    {
+      "name": "Plastic Container",
+      "address": "Warehouse in Trujillo",
+      "phone": "Quality: Plastic",
+      "website": "https://interplastic.com",
+      "logo": "https://placehold.co/600x400?text=Plastic+Container",
+      "membershipLevel": 3,
+      "membership": "Also available in Chimbote",
+      "description": "Affordable and sturdy choice."
+    },
+    {
+      "name": "Plastic Bucket",
+      "address": "Warehouse in Trujillo",
+      "phone": "Quality: Plastic",
+      "website": "https://interplastic.com",
+      "logo": "https://placehold.co/600x400?text=Plastic+Bucket",
+      "membershipLevel": 1,
+      "membership": "Available only in Trujillo",
+      "description": "Ideal for indoor and outdoor use."
+    },
+    {
+      "name": "Plastic Tumbler",
+      "address": "Warehouse in Trujillo",
+      "phone": "Quality: Plastic",
+      "website": "https://interplastic.com",
+      "logo": "https://placehold.co/600x400?text=Plastic+Tumbler",
+      "membershipLevel": 3,
+      "membership": "Also available in Chimbote",
+      "description": "Suitable for home and events."
+    },
+    {
+      "name": "Plastic Tray",
+      "address": "Warehouse in Trujillo",
+      "phone": "Quality: Plastic",
+      "website": "https://interplastic.com",
+      "logo": "https://placehold.co/600x400?text=Plastic+Tray",
+      "membershipLevel": 3,
+      "membership": "Also available in Chimbote",
+      "description": "Designed for convenience and style."
+    },
+    {
+      "name": "Plastic Chair",
+      "address": "Warehouse in Trujillo",
+      "phone": "Quality: Plastic",
+      "website": "https://interplastic.com",
+      "logo": "https://placehold.co/600x400?text=Plastic+Chair",
+      "membershipLevel": 2,
+      "membership": "Also available in Chiclayo",
+      "description": "Reusable and lightweight design."
+    },
+    {
+      "name": "Plastic Stool",
+      "address": "Warehouse in Trujillo",
+      "phone": "Quality: Plastic",
+      "website": "https://interplastic.com",
+      "logo": "https://placehold.co/600x400?text=Plastic+Stool",
+      "membershipLevel": 3,
+      "membership": "Also available in Chimbote",
+      "description": "Long-lasting and reliable."
+    },
+    {
+      "name": "Plastic Bin",
+      "address": "Warehouse in Trujillo",
+      "phone": "Quality: Plastic",
+      "website": "https://interplastic.com",
+      "logo": "https://placehold.co/600x400?text=Plastic+Bin",
+      "membershipLevel": 2,
+      "membership": "Also available in Chiclayo",
+      "description": "Ideal for indoor and outdoor use."
+    },
+    {
+      "name": "Plastic Jar",
+      "address": "Warehouse in Trujillo",
+      "phone": "Quality: Plastic",
+      "website": "https://interplastic.com",
+      "logo": "https://placehold.co/600x400?text=Plastic+Jar",
+      "membershipLevel": 2,
+      "membership": "Also available in Chiclayo",
+      "description": "Durable plastic product."
+    },
+    {
+      "name": "Plastic Bottle",
+      "address": "Warehouse in Trujillo",
+      "phone": "Quality: Plastic",
+      "website": "https://interplastic.com",
+      "logo": "https://placehold.co/600x400?text=Plastic+Bottle",
+      "membershipLevel": 1,
+      "membership": "Available only in Trujillo",
+      "description": "High-quality plastic material."
+    },
+    {
+      "name": "Plastic Mug",
+      "address": "Warehouse in Trujillo",
+      "phone": "Quality: Plastic",
+      "website": "https://interplastic.com",
+      "logo": "https://placehold.co/600x400?text=Plastic+Mug",
+      "membershipLevel": 2,
+      "membership": "Also available in Chiclayo",
+      "description": "Affordable and sturdy choice."
+    },
+    {
+      "name": "Plastic Cup",
+      "address": "Warehouse in Trujillo",
+      "phone": "Quality: Plastic",
+      "website": "https://interplastic.com",
+      "logo": "https://placehold.co/600x400?text=Plastic+Cup",
+      "membershipLevel": 1,
+      "membership": "Available only in Trujillo",
+      "description": "Made from strong plastic material."
+    },
+    {
+      "name": "Plastic Dish Rack",
+      "address": "Warehouse in Trujillo",
+      "phone": "Quality: Plastic",
+      "website": "https://interplastic.com",
+      "logo": "https://placehold.co/600x400?text=Plastic+Dish+Rack",
+      "membershipLevel": 3,
+      "membership": "Also available in Chimbote",
+      "description": "Suitable for home and events."
+    },
+    {
+      "name": "Plastic Water Tank",
+      "address": "Warehouse in Trujillo",
+      "phone": "Quality: Plastic",
+      "website": "https://interplastic.com",
+      "logo": "https://placehold.co/600x400?text=Plastic+Water+Tank",
+      "membershipLevel": 3,
+      "membership": "Also available in Chimbote",
+      "description": "Suitable for home and events."
+    },
+    {
+      "name": "Plastic Crate",
+      "address": "Warehouse in Trujillo",
+      "phone": "Quality: Plastic",
+      "website": "https://interplastic.com",
+      "logo": "https://placehold.co/600x400?text=Plastic+Crate",
+      "membershipLevel": 3,
+      "membership": "Also available in Chimbote",
+      "description": "Perfect for daily use."
     }
   ]
 }

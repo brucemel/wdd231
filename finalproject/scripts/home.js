@@ -13,7 +13,7 @@ async function getMembers() {
       throw new Error("Error al cargar JSON");
     }
     const data = await response.json();
-    displayMembers(data.members1);
+    displayMembers(data.plastic);
   } catch (error) {
     console.error("Error:", error);
   }
