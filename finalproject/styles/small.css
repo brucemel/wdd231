@@ -213,3 +213,11 @@ footer {
     border-bottom: 1px solid #002B36;
     display: inline-block;
 }
+
+.yeardate{
+    margin: 0;
+}
+
+.date{
+    margin: 0;
+}
