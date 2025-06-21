@@ -238,7 +238,7 @@ footer {
 }
 
 #visit-message::before {
-    content: "❗";
+    content: "🏅";
 }
 
 #placeslima div{
@@ -290,4 +290,14 @@ footer {
     color: #002B36;
     text-align: center;
     border-radius: 10px;
+}
+
+.buttondia{
+    background-color: #002B36;
+    color: #2AA198;
+    border-radius: 10px;
+}
+
+.sidebar{
+    margin: 0;
 }
