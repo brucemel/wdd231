@@ -125,7 +125,7 @@ export const product = [
     "address": "Warehouse in Trujillo",
     "phone": "Quality: Plastic",
     "website": "https://tinyurl.com/our-plas",
-    "photo_url": "stoolplas.webp",
+    "photo_url": "stoolplastic.webp",
     "membershipLevel": 3,
     "membership": "Also available in Chimbote",
     "description": "Long-lasting and reliable.",
