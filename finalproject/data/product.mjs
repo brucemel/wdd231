@@ -147,7 +147,7 @@ export const product = [
     "address": "Warehouse in Trujillo",
     "phone": "Quality: Plastic",
     "website": "https://tinyurl.com/our-plas",
-    "photo_url": "plasticjar.webp",
+    "photo_url": "jarplastic.webp",
     "membershipLevel": 2,
     "membership": "Also available in Chiclayo",
     "description": "Durable plastic product.",
