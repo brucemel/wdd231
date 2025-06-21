@@ -81,7 +81,7 @@ export const product = [
     "address": "Warehouse in Trujillo",
     "phone": "Quality: Plastic",
     "website": "https://tinyurl.com/our-plas",
-    "photo_url": "plasticbucket.webp",
+    "photo_url": "buckerplas.webp",
     "membershipLevel": 1,
     "membership": "Available only in Trujillo",
     "description": "Ideal for indoor and outdoor use.",
