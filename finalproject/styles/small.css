@@ -50,7 +50,7 @@ nav {
 ul.menuLinks li a {
     display: block;
     padding: .75rem 2vw;
-    color: #FDF6E3;
+    color: white;
     text-decoration: none;
 }
 
@@ -220,4 +220,74 @@ footer {
 
 .date{
     margin: 0;
+}
+
+.titlebus {
+    color: #002B36;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#visit-message {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 450px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+#visit-message::before {
+    content: "❗";
+}
+
+#placeslima div{
+    margin: 1rem 8px;
+    border: 1px solid #002B36;
+    background-color: #073642;
+    color: 	#FDF6E3;
+    border-radius: 8px;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-areas: 
+    "name"
+    "photo_url"
+    "description"
+    "address";
+}
+
+#placeslima div h2{
+    margin: 1rem 10px;
+    grid-area: name;
+}
+
+#placeslima div img{
+    width: 100%;
+    grid-area: photo_url;
+}
+
+#placeslima div p{
+    margin: 1rem 10px;
+    grid-area: description;
+}
+
+#placeslima div address{
+    margin: 1rem 10px;
+    grid-area: address;
+}
+
+#placeslima div button{
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #2AA198;
+    color:#002B36;
+    border-radius: 5px;
+}
+
+#dialogBox{
+    background-color: #c0ede9;
+    color: #002B36;
+    text-align: center;
+    border-radius: 10px;
 }

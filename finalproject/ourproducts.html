@@ -1,2 +1,86 @@
-<h1>Hello this is products Page</h1>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Final Project: Interplast Home Page">
+    <meta property="og:description" content="The customers know and orders our products.">
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/brucemel/wdd231/refs/heads/main/finalproject/images/medidas.png">
+    <meta property="og:url" content="https://brucemel.github.io/wdd231/finalproject/index.html">
+    <meta name="description" content="The customers know and orders our products.">
+    <meta name="author" content="Bruce Melendez Lozano">
+    <title>Final Project Interplast</title>
+    <link rel="icon"
+        href="https://raw.githubusercontent.com/brucemel/wdd231/refs/heads/main/finalproject/images/favicon.ico">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Lobster&family=Prata&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="scripts/home.js" defer></script>
+    <script src="scripts/products.js" defer type="module"></script>
+</head>
+
+<body>
+    <header>
+        <img class="logoimg" src="images/logo.jpg" alt="interplastlogo" loading="lazy">
+        <span>INTERPLAST</span>
+        <button id="myButton" title="responsivemenu"></button>
+    </header>
+    <nav id="animateme">
+        <ul class="menuLinks">
+            <li><a href="index.html" title="Home Page">Home Page</a></li>
+            <li><a href="ourproducts.html" title="products">Products Page</a></li>
+            <li><a href="formpro.html" title="Form">Form Page</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 class="titlebus">Interplast Products</h1>
+
+        <aside id="visit-message" class="sidebar">
+        </aside>
+
+        <div id="placeslima">
+        </div>
+        <dialog id="dialogBox">
+            <div></div>
+            <button id="closeButton" type="button">Close</button>
+        </dialog>
+    </main>
+    <footer>
+        <div class="partoneoffoot">
+            <h4>INTERPLAST </h4>
+            <p>Calle Garcilaso de la Vega</p>
+            <p>Trujillo, La Libertad</p>
+            <p><a href="info@gmail.com" class="emailho">info@gmail.com</a></p>
+            <p>+51 999999999</p>
+        </div>
+        <div>
+            <a href="https://www.youtube.com/" class="nonedeco">
+                <img class="logosred" src="images/youtube.png" alt="youtube">
+            </a>
+            <a href="https://x.com/?lang=es" class="nonedeco">
+                <img class="logosred" src="images/xlogo.png" alt="Twitter">
+            </a>
+            <a href="https://www.linkedin.com/feed/" class="nonedeco">
+                <img class="logosred" src="images/linke.png" alt="linkedin">
+            </a>
+        </div>
+        <div class="threesec">
+            <p>WDD231 Final Project</p>
+            <p>Bruce Melendez Lozano</p>
+            <p class="yeardate">
+                &copy; <span id="currentyear"></span> Bruce Melendez Lozano - Cajabamba</p>
+            <p class="date" id="lastModified">Last Modification: </p>
+        </div>
+
+        <p>Link of my video: <a class="videolink" href="#" target="_blank">Interplast Final Project</a></p>
+    </footer>
+</body>
+
+</html>

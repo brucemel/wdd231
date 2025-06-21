@@ -35,4 +35,37 @@
     .videolink {
         color: #002B36;
     }
+
+    #placeslima {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    img:hover {
+        transform: scale(1.05);
+        filter: brightness(1.1);
+        cursor: pointer;
+    }
+
+    #placeslima div {
+        grid-template-areas:
+            "photo_url name"
+            "photo_url description"
+            "photo_url address"
+            "photo_url button";
+    }
+
+    #placeslima div img {
+        width: 300px;
+        height: 230px;
+    }
+
+    #visit-message {
+        text-align: center;
+        margin-left: 450px;
+        margin-right: 450px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
 }

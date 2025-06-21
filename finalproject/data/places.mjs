@@ -1,0 +1,222 @@
+export const places = [
+  {
+    "name": "Plastic Glass",
+    "address": "Warehouse in Trujillo",
+    "phone": "Quality: Plastic",
+    "website": "https://tinyurl.com/our-plas",
+    "photo_url": "plasticglass.webp",
+    "membershipLevel": 2,
+    "membership": "Also available in Chiclayo",
+    "description": "Designed for convenience and style.",
+    "moreinfo": "Ideal for serving beverages at parties, picnics, or office events. Reusable and easy to clean for daily use. Great for both hot and cold drinks. Stock available: 352"
+  },
+  {
+    "name": "Plastic Spoon",
+    "address": "Warehouse in Trujillo",
+    "phone": "Quality: Plastic",
+    "website": "https://tinyurl.com/our-plas",
+    "photo_url": "plasticspoon.jpg",
+    "membershipLevel": 3,
+    "membership": "Also available in Chimbote",
+    "description": "Designed for convenience and style.",
+    "moreinfo": "Perfect for takeout, catering services, or school lunches. Durable enough for soups and desserts. Lightweight and disposable or reusable options. Stock available: 421"
+  },
+  {
+    "name": "Plastic Fork",
+    "address": "Warehouse in Trujillo",
+    "phone": "Quality: Plastic",
+    "website": "https://tinyurl.com/our-plas",
+    "photo_url": "plasticfork.jpg",
+    "membershipLevel": 3,
+    "membership": "Also available in Chimbote",
+    "description": "Suitable for home and events.",
+    "moreinfo": "Commonly used at barbecues, picnics, and fast-food restaurants. Strong enough for meats and salads. Comes in various colors to match themes. Stock available: 275"
+  },
+  {
+    "name": "Plastic Knife",
+    "address": "Warehouse in Trujillo",
+    "phone": "Quality: Plastic",
+    "website": "https://tinyurl.com/our-plas",
+    "photo_url": "plasticknife.jpeg",
+    "membershipLevel": 2,
+    "membership": "Also available in Chiclayo",
+    "description": "Perfect for daily use.",
+    "moreinfo": "Great for picnics, camping, and packed lunches. Safe for kids’ use with rounded tips. Handles hot or cold foods with ease. Stock available: 199"
+  },
+  {
+    "name": "Plastic Plate",
+    "address": "Warehouse in Trujillo",
+    "phone": "Quality: Plastic",
+    "website": "https://tinyurl.com/our-plas",
+    "photo_url": "plasticplate.jpeg",
+    "membershipLevel": 1,
+    "membership": "Available only in Trujillo",
+    "description": "Ideal for indoor and outdoor use.",
+    "moreinfo": "Used in parties, food stalls, and cafeterias. Easy to stack and store. Suitable for microwave use. Stock available: 340"
+  },
+  {
+    "name": "Plastic Bowl",
+    "address": "Warehouse in Trujillo",
+    "phone": "Quality: Plastic",
+    "website": "https://tinyurl.com/our-plas",
+    "photo_url": "plasticbowl.jpeg",
+    "membershipLevel": 3,
+    "membership": "Also available in Chimbote",
+    "description": "Reusable and lightweight design.",
+    "moreinfo": "Great for cereals, soups, or snacks at home or events. Stackable to save space. Resistant to breaking and chipping. Stock available: 289"
+  },
+  {
+    "name": "Plastic Container",
+    "address": "Warehouse in Trujillo",
+    "phone": "Quality: Plastic",
+    "website": "https://tinyurl.com/our-plas",
+    "photo_url": "plasticcontainer.jpg",
+    "membershipLevel": 3,
+    "membership": "Also available in Chimbote",
+    "description": "Affordable and sturdy choice.",
+    "moreinfo": "Perfect for food storage in kitchen or travel. Airtight lids help keep food fresh. Transparent body for easy identification. Stock available: 310"
+  },
+  {
+    "name": "Plastic Bucket",
+    "address": "Warehouse in Trujillo",
+    "phone": "Quality: Plastic",
+    "website": "https://tinyurl.com/our-plas",
+    "photo_url": "plasticbucket.webp",
+    "membershipLevel": 1,
+    "membership": "Available only in Trujillo",
+    "description": "Ideal for indoor and outdoor use.",
+    "moreinfo": "Widely used for cleaning, gardening, and storage. Strong handle for easy carrying. Durable against weather and heavy use. Stock available: 150"
+  },
+  {
+    "name": "Plastic Tumbler",
+    "address": "Warehouse in Trujillo",
+    "phone": "Quality: Plastic",
+    "website": "https://tinyurl.com/our-plas",
+    "photo_url": "plastictumbler.avif",
+    "membershipLevel": 3,
+    "membership": "Also available in Chimbote",
+    "description": "Suitable for home and events.",
+    "moreinfo": "Ideal for cold drinks at home, school, or events. Fits in car cup holders. Durable and dishwasher-safe. Stock available: 278"
+  },
+  {
+    "name": "Plastic Tray",
+    "address": "Warehouse in Trujillo",
+    "phone": "Quality: Plastic",
+    "website": "https://tinyurl.com/our-plas",
+    "photo_url": "plastictray.jpeg",
+    "membershipLevel": 3,
+    "membership": "Also available in Chimbote",
+    "description": "Designed for convenience and style.",
+    "moreinfo": "Used in homes, restaurants, and hospitals. Easy to clean and stack. Lightweight but strong enough for multiple items. Stock available: 187"
+  },
+  {
+    "name": "Plastic Chair",
+    "address": "Warehouse in Trujillo",
+    "phone": "Quality: Plastic",
+    "website": "https://tinyurl.com/our-plas",
+    "photo_url": "plasticchair.jpeg",
+    "membershipLevel": 2,
+    "membership": "Also available in Chiclayo",
+    "description": "Reusable and lightweight design.",
+    "moreinfo": "Perfect for events, patios, or schools. Weather resistant and stackable. Available in various colors. Stock available: 133"
+  },
+  {
+    "name": "Plastic Stool",
+    "address": "Warehouse in Trujillo",
+    "phone": "Quality: Plastic",
+    "website": "https://tinyurl.com/our-plas",
+    "photo_url": "plasticstool.webp",
+    "membershipLevel": 3,
+    "membership": "Also available in Chimbote",
+    "description": "Long-lasting and reliable.",
+    "moreinfo": "Useful in kitchens, workshops, or stores. Lightweight for easy movement. Supports significant weight safely. Stock available: 115"
+  },
+  {
+    "name": "Plastic Bin",
+    "address": "Warehouse in Trujillo",
+    "phone": "Quality: Plastic",
+    "website": "https://tinyurl.com/our-plas",
+    "photo_url": "plasticbin.jpg",
+    "membershipLevel": 2,
+    "membership": "Also available in Chiclayo",
+    "description": "Ideal for indoor and outdoor use.",
+    "moreinfo": "Used for home, office, or industrial waste management. Available with or without lid. Easy to clean and durable. Stock available: 205"
+  },
+  {
+    "name": "Plastic Jar",
+    "address": "Warehouse in Trujillo",
+    "phone": "Quality: Plastic",
+    "website": "https://tinyurl.com/our-plas",
+    "photo_url": "plasticjar.webp",
+    "membershipLevel": 2,
+    "membership": "Also available in Chiclayo",
+    "description": "Durable plastic product.",
+    "moreinfo": "Great for storing spices, grains, or liquids. Transparent for easy viewing. Reusable and eco-friendly. Stock available: 366"
+  },
+  {
+    "name": "Plastic Bottle",
+    "address": "Warehouse in Trujillo",
+    "phone": "Quality: Plastic",
+    "website": "https://tinyurl.com/our-plas",
+    "photo_url": "plasticbottle.jpeg",
+    "membershipLevel": 1,
+    "membership": "Available only in Trujillo",
+    "description": "High-quality plastic material.",
+    "moreinfo": "Ideal for beverages, oils, or cleaning liquids. Leakproof cap ensures safety. Suitable for multiple refills. Stock available: 390"
+  },
+  {
+    "name": "Plastic Mug",
+    "address": "Warehouse in Trujillo",
+    "phone": "Quality: Plastic",
+    "website": "https://tinyurl.com/our-plas",
+    "photo_url": "plasticmug.jpg",
+    "membershipLevel": 2,
+    "membership": "Also available in Chiclayo",
+    "description": "Affordable and sturdy choice.",
+    "moreinfo": "Perfect for tea, coffee, or cold drinks. Lightweight and child-friendly. Easy to clean and store. Stock available: 248"
+  },
+  {
+    "name": "Plastic Cup",
+    "address": "Warehouse in Trujillo",
+    "phone": "Quality: Plastic",
+    "website": "https://tinyurl.com/our-plas",
+    "photo_url": "plasticcup.jpg",
+    "membershipLevel": 1,
+    "membership": "Available only in Trujillo",
+    "description": "Made from strong plastic material.",
+    "moreinfo": "Great for events, fast food, or home use. Stackable and space-saving. Available in various sizes. Stock available: 415"
+  },
+  {
+    "name": "Plastic Dish Rack",
+    "address": "Warehouse in Trujillo",
+    "phone": "Quality: Plastic",
+    "website": "https://tinyurl.com/our-plas",
+    "photo_url": "plasticdishrack.avif",
+    "membershipLevel": 3,
+    "membership": "Also available in Chimbote",
+    "description": "Suitable for home and events.",
+    "moreinfo": "Helps organize dishes and cutlery after washing. Designed with drainage for quick drying. Compact and sturdy build. Stock available: 142"
+  },
+  {
+    "name": "Plastic Water Tank",
+    "address": "Warehouse in Trujillo",
+    "phone": "Quality: Plastic",
+    "website": "https://tinyurl.com/our-plas",
+    "photo_url": "plasticwatertank.jpeg",
+    "membershipLevel": 3,
+    "membership": "Also available in Chimbote",
+    "description": "Suitable for home and events.",
+    "moreinfo": "Used for water storage in homes, farms, or factories. UV-resistant and durable. Easy to clean and install. Stock available: 98"
+  },
+  {
+    "name": "Plastic Crate",
+    "address": "Warehouse in Trujillo",
+    "phone": "Quality: Plastic",
+    "website": "https://tinyurl.com/our-plas",
+    "photo_url": "plasticcrate.jpeg",
+    "membershipLevel": 3,
+    "membership": "Also available in Chimbote",
+    "description": "Perfect for daily use.",
+    "moreinfo": "Ideal for transporting fruits, vegetables, or goods. Stackable and ventilated design. Lightweight yet sturdy. Stock available: 180"
+  }
+]
