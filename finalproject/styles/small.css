@@ -301,3 +301,176 @@ footer {
 .sidebar{
     margin: 0;
 }
+
+form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.blocklabel {
+    display: block;
+}
+
+.membership-card {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: transform 0.6s ease-out, opacity 0.6s ease-out;
+}
+
+.membership-card.loaded {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+main {
+    font-family: Prata, sans-serif;
+}
+
+.firstform{
+    border: 1px solid #002B36;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #2AA198;
+}
+
+.ftitleform {
+    padding: 5px;
+    color: #002B36;
+    font-size: 30px;
+    text-align: center;
+}
+
+.titleofform {
+    margin-left: 15px;
+    font-size: 15px;
+    color: #002B36;
+    margin-bottom: 10px;
+}
+
+.blocklabel {
+    color: #002B36;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+#firstName {
+    width: 250px;
+    margin-bottom: 15px;
+    color: #002B36;
+}
+
+#lastName {
+    width: 250px;
+    margin-bottom: 15px;
+    color: #002B36;
+}
+
+#organizationtitle {
+    width: 250px;
+    margin-bottom: 15px;
+    color: #002B36;
+}
+
+#email {
+    width: 250px;
+    margin-bottom: 15px;
+    color: #002B36;
+}
+
+#phone {
+    width: 250px;
+    margin-bottom: 15px;
+    color: #002B36;
+}
+
+#organizationname {
+    width: 250px;
+    margin-bottom: 15px;
+    color: #002B36;
+}
+
+.optionslevel {
+    font-size: 10px;
+    color: #002B36;
+}
+
+textarea {
+    width: 250px;
+    margin-bottom: 15px;
+    color: #002B36;
+}
+
+#butonsum {
+    background-color: #002B36;
+    border-radius: 10px;
+    color:#FDF6E3;
+    padding: 5px;
+}
+
+.secondlevel {
+    text-align: center;
+}
+
+.titletwoform {
+    font-size: 15px;
+    text-align: start;
+    color: #002B36;
+    margin-top: -35px
+}
+
+.nplevcar {
+    padding: 35px;
+    background-color: #2AA198;
+    margin: 5px;
+    color: #002B36;
+    border-radius: 10px 40px;
+}
+
+#npmemlevel {
+    background-color: #002B36;
+    color: #FDF6E3;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#bromemlevel {
+    background-color: #002B36;
+    color: #FDF6E3;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#silmemlevel {
+    background-color: #002B36;
+    color: #FDF6E3;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#goldmemlevel {
+    background-color: #002B36;
+    color: #FDF6E3;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#closeButton {
+    background-color: red;
+}
+
+#dialogBox {
+    width: 500px;
+    height: 120px;
+    text-align: center;
+    background-color: rgb(109, 144, 109);
+}
+
+#results {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
