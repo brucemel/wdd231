@@ -203,14 +203,17 @@
     }
 
     #closeButton {
-        background-color: red;
+        background-color: #002B36;
+        color: #FDF6E3;
+        padding: 3px;
+        border-radius: 5px;
     }
 
     #dialogBox {
         width: 500px;
         height: 120px;
         text-align: center;
-        background-color: rgb(109, 144, 109);
+        background-color: #b6eae5;
     }
 
     #results {

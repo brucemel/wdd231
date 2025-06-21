@@ -2,22 +2,22 @@ const dialogBoxText = document.querySelector("#dialogBox div");
 
 npmemlevel.addEventListener("click", () => {
     dialogBox.showModal();
-    dialogBoxText.innerHTML = `This free membership is designed for non-profit organizations and offers access to community events, organizational development workshops, inclusion in the online directory, and networking opportunities with local businesses, along with limited access to educational materials.`
+    dialogBoxText.innerHTML = `Address: Garcilaso de la Vega #212 <br> Phone: 999 999 999 <br>Email: info@gmail.com <br> Seller: Jessica Peña`
 });
 
 bromemlevel.addEventListener("click", () => {
     dialogBox.showModal();
-    dialogBoxText.innerHTML = `Includes all the benefits of the Non Profit level, plus placement in the monthly newsletter, access to exclusive Bronze-level events, discounts on basic website advertising, and one free training workshop per year.`
+    dialogBoxText.innerHTML = `Address: Gral. Arenales 296, Chiclayo 14008 <br> Phone: (0800) 00210 <br>Email: servicioalcliente@promart.pe <br> Seller: Ruiter Acosta`
 });
 
 silmemlevel.addEventListener("click", () => {
     dialogBox.showModal();
-    dialogBoxText.innerHTML = `Offers all the Bronze-level benefits, as well as quarterly promotions on social media, higher discounts on events and advertising, two free training workshops per year, and priority access to networking events and trade shows.`
+    dialogBoxText.innerHTML = `Address: Av. Agustín de la Rosa Toro 165, San Luis, Chimbote <br> Phone: 987 185 919 <br>Email: aliagrot@gmail.com <br> Seller: Jessica Robles`
 });
 
 goldmemlevel.addEventListener("click", () => {
     dialogBox.showModal();
-    dialogBoxText.innerHTML = `This premium membership includes all Silver-level benefits, along with featured advertising on the homepage, sponsor recognition at events, personalized assistance, free and priority access to all events, and the opportunity to host sponsored presentations through the chamber.`
+    dialogBoxText.innerHTML = `Address: Av. Aviación 2405, Piso 5, San Borja, Lima <br> Phone: (01) 619 4810 <br>Email: servicioalcliente@promart.pe <br> Seller: Adolfo Robles`
 });
 
 closeButton.addEventListener("click", () => {

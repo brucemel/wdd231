@@ -214,11 +214,11 @@ footer {
     display: inline-block;
 }
 
-.yeardate{
+.yeardate {
     margin: 0;
 }
 
-.date{
+.date {
     margin: 0;
 }
 
@@ -241,64 +241,64 @@ footer {
     content: "🏅";
 }
 
-#placeslima div{
+#placeslima div {
     margin: 1rem 8px;
     border: 1px solid #002B36;
     background-color: #073642;
-    color: 	#FDF6E3;
+    color: #FDF6E3;
     border-radius: 8px;
     overflow: hidden;
 
     display: grid;
-    grid-template-areas: 
-    "name"
-    "photo_url"
-    "description"
-    "address";
+    grid-template-areas:
+        "name"
+        "photo_url"
+        "description"
+        "address";
 }
 
-#placeslima div h2{
+#placeslima div h2 {
     margin: 1rem 10px;
     grid-area: name;
 }
 
-#placeslima div img{
+#placeslima div img {
     width: 100%;
     grid-area: photo_url;
 }
 
-#placeslima div p{
+#placeslima div p {
     margin: 1rem 10px;
     grid-area: description;
 }
 
-#placeslima div address{
+#placeslima div address {
     margin: 1rem 10px;
     grid-area: address;
 }
 
-#placeslima div button{
+#placeslima div button {
     padding: 8px;
     margin-bottom: 10px;
     background-color: #2AA198;
-    color:#002B36;
+    color: #002B36;
     border-radius: 5px;
 }
 
-#dialogBox{
+#dialogBox {
     background-color: #c0ede9;
     color: #002B36;
     text-align: center;
     border-radius: 10px;
 }
 
-.buttondia{
+.buttondia {
     background-color: #002B36;
     color: #2AA198;
     border-radius: 10px;
 }
 
-.sidebar{
+.sidebar {
     margin: 0;
 }
 
@@ -322,7 +322,7 @@ form {
     opacity: 1;
 }
 
-.firstform{
+.firstform {
     border: 1px solid #002B36;
     padding: 40px;
     border-radius: 20px;
@@ -399,7 +399,7 @@ textarea {
 #butonsum {
     background-color: #002B36;
     border-radius: 10px;
-    color:#FDF6E3;
+    color: #FDF6E3;
     padding: 5px;
 }
 
@@ -455,7 +455,10 @@ textarea {
 }
 
 #closeButton {
-    background-color: red;
+    background-color: #002B36;
+    color: #FDF6E3;
+    padding: 3px;
+    border-radius: 5px;
 }
 
 #dialogBox {
@@ -471,6 +474,10 @@ textarea {
     text-align: center;
 }
 
-.secondlevel{
+.secondlevel {
     margin-top: 60px;
+}
+
+#goldlevel {
+    margin-bottom: 5px;
 }

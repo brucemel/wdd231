@@ -34,14 +34,14 @@
         <ul class="menuLinks">
             <li><a href="index.html" title="Home Page">Home Page</a></li>
             <li><a href="ourproducts.html" title="products">Products Page</a></li>
-            <li><a href="formpro.html" title="Form">Form Page</a></li>
+            <li><a href="formpro.html" title="Form">Contact Us</a></li>
         </ul>
     </nav>
     <main>
-        <h1 class="ftitleform">Join Page</h1>
+        <h1 class="ftitleform">Contact Us</h1>
         <form action="thankyou.html" method="get">
             <section class="firstform">
-                <h2 class="titleofform">Membership Aplication Form</h2>
+                <h2 class="titleofform">FILL OUT THE FORM:</h2>
                 <div>
                     <label class="blocklabel" for="firstName">First Name:</label>
                     <input name="firstName" id="firstName" type="text" title="firstnam" required
@@ -51,7 +51,7 @@
                     <input name="lastName" id="lastName" type="text" title="lastnam" required
                         autocomplete="family-name">
 
-                    <label class="blocklabel" for="organizationtitle">Organizational Title</label>
+                    <label class="blocklabel" for="organizationtitle">Organizational Title:</label>
                     <input name="organization" id="organizationtitle" type="text" pattern="[A-Za-z\s\-]{7,}"
                         title="Organization Title" required autocomplete="organization-title">
 
@@ -59,30 +59,30 @@
                     <input name="email" id="email" type="email" title="emailcham" placeholder="chamber@example.email"
                         autocomplete="off">
 
-                    <label class="blocklabel" for="phone">Cell Phone</label>
+                    <label class="blocklabel" for="phone">Cell Phone:</label>
                     <input name="phone" id="phone" type="tel" placeholder="+51 999-999-999" title="cellphonecham"
                         required autocomplete="tel">
 
-                    <label class="blocklabel" for="organizationname">Business/Organization's Name</label>
+                    <label class="blocklabel" for="organizationname">Business/Organization's Name:</label>
                     <input name="orgname" id="organizationname" type="text" title="orgnam" required
                         autocomplete="organization">
 
-                    <h3 class="blocklabel">Membership Levels</h3>
+                    <h3 class="blocklabel">Locality:</h3>
                     <div class="optionslevel">
                         <input type="radio" id="npmember" name="npmembership" value="NP">
-                        <label for="npmember" data-content="option of Membership">Non Profit Membership</label>
+                        <label for="npmember" data-content="option of Membership">Trujillo</label>
                     </div>
                     <div class="optionslevel">
                         <input type="radio" id="bronzelevel" name="npmembership" value="Bronze">
-                        <label for="bronzelevel" data-content="option of Membership">Bronze Membership</label>
+                        <label for="bronzelevel" data-content="option of Membership">Chiclayo</label>
                     </div>
                     <div class="optionslevel">
                         <input type="radio" id="silverlevel" name="npmembership" value="Silver">
-                        <label for="silverlevel">Silver Membership</label>
+                        <label for="silverlevel">Chimbote</label>
                     </div>
                     <div class="optionslevel">
                         <input type="radio" id="goldlevel" name="npmembership" value="Gold">
-                        <label for="goldlevel">Gold Membership</label>
+                        <label for="goldlevel">Other Place</label>
                     </div>
 
                     <label class="blocklabel" for="bsdescrip">Business Description</label>
@@ -96,21 +96,21 @@
             </section>
             <section class="secondlevel">
                 <div>
-                    <h2 class="titletwoform">Membership Levels</h2>
+                    <h2 class="titletwoform">STORAGE LOCATIONS</h2>
                     <div class="nplevcar">
-                        <p class="membership-card">Non Profit Membership Level</p>
+                        <p class="membership-card">Trujillo Warehouse</p>
                         <button class="membership-card" id="npmemlevel" type="button">Learn More</button>
                     </div>
                     <div class="nplevcar">
-                        <p class="membership-card">Bronze Membership Level</p>
+                        <p class="membership-card">Chiclayo Warehouse</p>
                         <button class="membership-card" id="bromemlevel" type="button">Learn More</button>
                     </div>
                     <div class="nplevcar">
-                        <p class="membership-card">Silver Membership Level</p>
+                        <p class="membership-card">Chimbote Warehouse</p>
                         <button class="membership-card" id="silmemlevel" type="button">Learn More</button>
                     </div>
                     <div class="nplevcar">
-                        <p class="membership-card">Gold Membership Level</p>
+                        <p class="membership-card">Other (Lima) Warehouse</p>
                         <button class="membership-card" id="goldmemlevel" type="button">Learn More</button>
                     </div>
                     <dialog id="dialogBox">
