@@ -6,21 +6,21 @@ hamburgerElement.addEventListener('click', () => {
     hamburgerElement.classList.toggle('#animateme');
 });
 
-async function getMembers() {
+async function getPlastics() {
     try {
-        const response = await fetch("data/members.json");
+        const response = await fetch("data/plastics.json");
         if (!response.ok) {
             // throw new Error("Error al cargar JSON");
             return;
         }
         const data = await response.json();
-        displayMembers(data.plastic);
+        displayPlastics(data.plastic);
     } catch (error) {
         // console.error("Error:", error);
     }
 }
 
-function displayMembers(members) {
+function displayPlastics(members) {
     const container = document.querySelector(".res-grid");
     container.innerHTML = "";
 
@@ -49,7 +49,7 @@ function displayMembers(members) {
     });
 }
 
-getMembers();
+getPlastics();
 
 const currentyear = document.querySelector("#currentyear");
 const lastModified = document.getElementById("lastModified");
